@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS selectors and specificity</title>
+        <link rel="stylesheet" href="./Styles/ChallengeProject01.css">
+    </head>
+
+    <body>
+        <h1>CSS: <br> Selectors and Specificity</h1>
+        <h2>Differents Selectors Table</h2>
+        <h3>Definition</h3>
+        <p>A selector is used to target the specific HTML element(s)to be styled by the declaration. </p>
+
+        <table>
+            <thead id="head">
+                <tr>
+                    <th>Selector</th>
+                    <th>Description</th>
+                    <th>Tag</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Type</td>
+                    <td>Often referred to by their opening tag name and dont require angle brackets</td>
+                    <td> x (No tag, just the type)</td>
+                </tr>
+                <tr>
+                    <td>Universal</td>
+                    <td>Targeting all of the elements on the page has a few specific use cases, such as resetting default browser styling</td>
+                    <td>*</td>
+                </tr>
+                <tr>
+                    <td>Class</td>
+                    <td> It's possible to add more than one class name. You target it with the class name and period</td>
+                    <td>.x (Period)</td>
+                </tr>
+                <tr>
+                    <td>ID</td>
+                    <td>For elements that need to be styled uniquely</td>
+                    <td>#x</td>
+                </tr>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Elements of the same type can be targeted differently by their attribute or attribute value. Surrounded by square brackets</td>
+                    <td>[x]</td>
+                </tr>
+                <tr>
+                    <td>Pseudo-Class</td>
+                    <td>Factors such as user interaction, site navigation, and position in the document tree can all give elements a different state with pseudo-class</td>
+                    <td>x:y</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Order of display Table</h2>
+        <h3>Specificity</h3>
+        <p>Is the order by which the browser decides which CSS styles will be displayed.</p>
+
+        <table>
+            <tr>
+                <th>Order</th>
+                <td>First</td>
+                <td>Second</td>
+                <td>Third</td>
+                <td>Third</td>
+                <td>Fourth</td>
+                <td>Fifth</td>
+            </tr>
+            <tr>
+                <th>Selector</th>
+                <td>ID</td>
+                <td>Attribute</td>
+                <td>Class</td>
+                <td>Pseudo-Class</td>
+                <td>Type</td>
+                <td>Universal</td>
+            </tr>
+        </table>
+        
+    </body>
+</html>

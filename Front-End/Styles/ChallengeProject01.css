@@ -1,0 +1,27 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(245, 210, 210, 0.877);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid;
+}
+
+table {
+    border: none;
+    border-spacing: 12px;
+}
+
+td {
+    padding: 8px;
+    background-color: rgba(180, 221, 221, 0.568);
+
+}
+th {
+    padding: 18px;
+    background-color: rgba(173, 247, 247, 0.822);
+}
